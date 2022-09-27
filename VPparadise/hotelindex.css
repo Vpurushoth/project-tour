@@ -1,0 +1,232 @@
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(https://xploretheearth.com/wp-content/uploads/2020/08/Places-to-Visit-in-Kodaikanal-featured-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:10px 10px 10px black;
+    padding-top: 80px;
+    
+}
+h2{
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    
+}
+.off{
+    color:#fff;
+    float: right;
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    font-size:20px;
+}
+.place{
+    background-color: black;
+    padding: 10px;
+}
+#home ul{
+    margin-top: 0;
+    font-size: large;
+    text-align: center;
+    background-color: #253d49;
+    
+    padding: 20px;
+    display: inline;
+    position: fixed;
+    width: 100%;
+    
+}
+ a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+    margin-top: 3px;
+}
+#h{
+    display: inline-block;
+    padding: 5px;
+    
+}
+#h :hover{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+#home ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 45px;
+    width: auto;
+    height: 60px;;
+    display: inline;
+}
+h3{
+    text-align: center;
+}
+.pic{
+    float: right;
+}
+#aboutkodai ul li{
+        text-align: center;
+        margin:40px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+#aboutus p{
+    text-align: center;
+}
+video{
+    margin-left: 250px;
+    text-align: center;
+    align-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 30px;
+    align-items: stretch;
+}
+.grid img{
+    border: 2px solid black;
+    box-shadow: 2px 2px 6px 6px rgba(0,0,0,0.3);
+    max-width: 100%;
+}
+h4{
+    text-align: center;
+}
+#booking form{
+    background-color:rgb(135, 213, 230);
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 6px 6px rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-left: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#booking form input{
+    width: 100%;
+}
+#booking form select{
+    width: 100%;
+}
+#booking form button{
+    margin-left: 40%;
+    text-align: center;
+    border-color: steelblue;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#review{
+    width: 100%;
+    height:100%
+}
+
+#review form{
+    background-color:rgb(198, 207, 208);
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 6px 6px rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-left: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;    
+}
+#review form input,textarea{
+    width: 100%;
+}
+#abc{
+    display: inline-block;
+    width: 45%;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 6px 6px rgba(0,0,0,0.3);
+    padding: 10px;
+    margin: 10px;
+}
+
+#ref{
+    float: left;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+#review button{
+    margin-top: 10px;
+    margin-left: 40%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+#ref h4 a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#ref .i{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+#ref .fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)#f09433;
+    font-size: 40px;
+    border-radius: 5px;
+    
+}
+#ref .fa-facebook-f:hover{
+    background-color: #3b5998;
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
+#ref .fa-facebook-messenger:hover{
+    background-color: rgb(0 178 255);
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
+#ref .fa-snapchat:hover{
+    background-color: rgb(255 252 0);
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
+#ref .fa-whatsapp:hover{
+    background-color: green;
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
+#ref .fa-youtube:hover{
+    background-color: red;
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
+#ref .fa-twitter:hover{
+    background-color: #3b5998;
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
+#ref .fa-telegram:hover{
+    background-color: #3b5998;
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;   
+}
